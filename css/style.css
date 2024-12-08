@@ -406,7 +406,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.section-ul .list:hover .list-content .subtitle .text {
+.list:hover .text {
   transform: translateY(0%);
 }
 
