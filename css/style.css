@@ -393,7 +393,7 @@ ul {
   margin-bottom: 72px;
 }
 
-.section-three-header .section-ul .list2 .subtitle {
+.section-three-header .section-ul .list-li .subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -401,16 +401,16 @@ ul {
   color: #2e2f42;
 }
 
-.section-three-header .section-ul .list2 .text2 {
+.section-three-header .section-ul .list-li .text-p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.list2:hover .text2 {
+.list-li:hover .text-p {
   transform: translateY(0%);
 }
 
-.section-three-header .section-ul .list2 .list-content {
+.section-three-header .section-ul .list-li .list-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   margin-bottom: 8px;
@@ -427,11 +427,11 @@ ul {
   padding: 0;
 }
 
-.section-three-header .container .section-ul .list2 {
+.section-three-header .container .section-ul .list-li {
   width: fit-content;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section-three-header .container .section-ul .list2:hover {
+.section-three-header .container .section-ul .list-li:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
