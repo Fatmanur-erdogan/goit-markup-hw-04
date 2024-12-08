@@ -164,6 +164,10 @@ ul {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/background.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .section-hero-image .container {
   display: flex;
@@ -202,6 +206,7 @@ ul {
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
