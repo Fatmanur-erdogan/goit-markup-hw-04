@@ -405,7 +405,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.section-three-header .section-ul .list .text:hover {
+.section-three-header .container .section-ul .list .text:hover {
   transform: translateY(0%);
 }
 
