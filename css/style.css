@@ -406,7 +406,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.container .section-header .section-ul .list:hover,
+.section-three-header .container .section-ul .list:hover,
 .text {
   transform: translateY(0%);
 }
