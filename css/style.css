@@ -517,7 +517,7 @@ ul {
   max-width: 264px;
 }
 
-.footer .container {
+.footer .container .text {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
@@ -534,6 +534,8 @@ footer .social-link {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 .footer .social .title {
   font-size: 16px;
@@ -542,8 +544,6 @@ footer .social-link {
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 16px;
-  width: 40px;
-  height: 40px;
 }
 .footer .social .social-list {
   gap: 16px;
