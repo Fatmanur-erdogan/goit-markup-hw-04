@@ -509,14 +509,14 @@ ul {
   display: inline-block;
 }
 
-footer .social .social-list,
+.footer .social .social-list,
 .container .section-list .section-item .section-content .social-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
 }
-footer .social .social-list .social-item,
+.footer .social .social-list .social-item,
 .container
   .section-list
   .section-item
@@ -527,7 +527,7 @@ footer .social .social-list .social-item,
   height: 40px;
 }
 
-footer .social .social-list .social-item .social-link,
+.footer .social .social-list .social-item .social-link,
 .container
   .section-list
   .section-item
@@ -561,12 +561,12 @@ footer .social .social-list .social-item .social-link,
   .social-link:focus {
   background-color: #404bbf;
 }
-footer .social .social-list .social-item .social-link:focus,
+.footer .social .social-list .social-item .social-link:focus,
 footer .social .social-list .social-item .social-link:hover {
   background-color: #31d0aa;
 }
 
-footer .social .social-list .social-item .social-link svg.svg,
+.footer .social .social-list .social-item .social-link svg.svg,
 .container
   .section-list
   .section-item
@@ -579,7 +579,7 @@ footer .social .social-list .social-item .social-link svg.svg,
   width: 24px;
   height: 24px;
 }
-footer .detail {
+.footer .detail {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
@@ -587,7 +587,7 @@ footer .detail {
 }
 footer .social {
 }
-footer .social .title {
+.footer .social .title {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -595,22 +595,22 @@ footer .social .title {
   color: #ffffff;
   margin-bottom: 16px;
 }
-footer .social .social-list {
+.footer .social .social-list {
   gap: 16px;
 }
-footer .container {
+.footer .container {
   display: flex;
   align-items: baseline;
 }
-footer .text {
+.footer .text {
   display: inline;
   margin-right: 120px;
 }
 
-footer .logo {
+.footer .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
-footer .logo .logo-span {
+.footer .logo .logo-span {
   color: #fff;
 }
