@@ -584,10 +584,8 @@ ul {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-right: 120px;
 }
-.footer .social {
-}
+
 .footer .social .title {
   font-size: 16px;
   line-height: 1.5;
@@ -603,10 +601,13 @@ ul {
   display: flex;
   align-items: baseline;
 }
-.footer .text {
+.footer .text-three {
   display: inline;
 }
 
+.text-three .logo .detail {
+  margin-right: 120px;
+}
 .footer .logo {
   display: inline-block;
   margin-bottom: 16px;
