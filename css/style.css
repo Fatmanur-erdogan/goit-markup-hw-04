@@ -517,9 +517,11 @@ ul {
   max-width: 264px;
 }
 
-.footer .container .text {
+.footer .container {
   display: flex;
   align-items: baseline;
+}
+.container .text {
   margin-right: 120px;
 }
 
