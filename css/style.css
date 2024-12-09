@@ -602,7 +602,7 @@ ul {
   display: flex;
   align-items: baseline;
 }
-.footer .container .logo .text {
+.footer .text .logo .text {
   display: inline;
   margin-right: 120px;
 }
