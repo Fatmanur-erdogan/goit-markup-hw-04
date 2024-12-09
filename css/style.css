@@ -515,12 +515,12 @@ ul {
   letter-spacing: 0.02em;
   font-size: 16px;
   max-width: 264px;
-  margin-right: 120px;
 }
 
 .footer .container {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer .detail {
