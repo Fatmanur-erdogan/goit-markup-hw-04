@@ -562,7 +562,7 @@ ul {
   background-color: #404bbf;
 }
 .footer .social .social-list .social-item .social-link:focus,
-footer .social .social-list .social-item .social-link:hover {
+.footer .social .social-list .social-item .social-link:hover {
   background-color: #31d0aa;
 }
 
@@ -585,7 +585,7 @@ footer .social .social-list .social-item .social-link:hover {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-footer .social {
+.footer .social {
 }
 .footer .social .title {
   font-size: 16px;
