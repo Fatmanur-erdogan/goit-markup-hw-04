@@ -584,6 +584,7 @@ ul {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin-right: 120px;
 }
 .footer .social {
 }
@@ -604,7 +605,6 @@ ul {
 }
 .footer .text {
   display: inline;
-  margin-right: 120px;
 }
 
 .footer .logo {
