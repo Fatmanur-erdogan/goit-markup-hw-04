@@ -509,37 +509,85 @@ ul {
   display: inline-block;
 }
 
-.footer .text {
-  color: #f4f4fd;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-size: 16px;
-  max-width: 264px;
-}
-
-.footer .container {
+footer .social .social-list,
+.container .section-list .section-item .section-content .social-list {
   display: flex;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
-.container .text {
-  margin-right: 120px;
+footer .social .social-list .social-item,
+.container
+  .section-list
+  .section-item
+  .section-content
+  .social-list
+  .social-item {
+  width: 40px;
+  height: 40px;
 }
 
-.footer .detail {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-  max-width: 264px;
-}
-footer .social-link {
+footer .social .social-list .social-item .social-link,
+.container
+  .section-list
+  .section-item
+  .section-content
+  .social-list
+  .social-item
+  .social-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer .social .title {
+
+.container
+  .section-list
+  .section-item
+  .section-content
+  .social-list
+  .social-item
+  .social-link:hover,
+.container
+  .section-list
+  .section-item
+  .section-content
+  .social-list
+  .social-item
+  .social-link:focus {
+  background-color: #404bbf;
+}
+footer .social .social-list .social-item .social-link:focus,
+footer .social .social-list .social-item .social-link:hover {
+  background-color: #31d0aa;
+}
+
+footer .social .social-list .social-item .social-link svg.svg,
+.container
+  .section-list
+  .section-item
+  .section-content
+  .social-list
+  .social-item
+  .social-link
+  svg.svg {
+  fill: #f4f4fd;
+  width: 24px;
+  height: 24px;
+}
+footer .detail {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
+footer .social {
+}
+footer .social .title {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -547,7 +595,22 @@ footer .social-link {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.footer .social .social-list {
+footer .social .social-list {
   gap: 16px;
+}
+footer .container {
   display: flex;
+  align-items: baseline;
+}
+footer .text {
+  display: inline;
+  margin-right: 120px;
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+footer .logo .logo-span {
+  color: #fff;
 }
